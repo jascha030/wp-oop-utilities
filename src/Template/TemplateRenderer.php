@@ -2,6 +2,8 @@
 
 namespace Jascha030\WP\Utilities\Template;
 
+use Exception;
+
 if (! defined('ABSPATH')) {
     die("Forbidden");
 } // Abandon ship.
@@ -36,6 +38,7 @@ if (! class_exists('Jascha030\WP\Utilities\Template\TemplateRenderer')) {
          * @param array|null $arguments
          *
          * @return false|string
+         * @throws Exception
          */
         public function renderTemplate($template, array $arguments = null)
         {
@@ -53,6 +56,7 @@ if (! class_exists('Jascha030\WP\Utilities\Template\TemplateRenderer')) {
                 }
             }
 
+            /** @noinspection PhpIncludeInspection */
             include $path;
 
             return ob_get_clean();
