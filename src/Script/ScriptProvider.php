@@ -10,7 +10,7 @@ if (! defined('ABSPATH')) {
     die("Forbidden");
 } // Abandon ship.
 
-if (! class_exists('ScriptProvider')) {
+if (! class_exists('Jascha030\WP\Utilities\Script\ScriptProvider')) {
     /**
      * Class ScriptProvider
      *
@@ -53,11 +53,11 @@ if (! class_exists('ScriptProvider')) {
          */
         public function addScript(ScriptFile $script)
         {
-            if ($this->scripts[$script->getName()]) {
-                throw new Exception('Script ' . $script->getName() . ' already added.');
+            if ($this->scripts[$script->getHandle()]) {
+                throw new Exception('Script ' . $script->getHandle() . ' already added.');
             }
 
-            $this->scripts[$script->getName()] = $script;
+            $this->scripts[$script->getHandle()] = $script;
         }
 
         /**

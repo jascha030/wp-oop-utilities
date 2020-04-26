@@ -1,7 +1,7 @@
 {
   "name": "jascha030/wp-oop-utilities",
   "description": "Utilities for making Wordpress plugins with jascha030/wp-subscriber package",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "license": "MIT",
   "authors": [
     {
