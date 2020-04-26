@@ -1,0 +1,22 @@
+{
+  "name": "jascha030/wp-oop-utilities",
+  "description": "Utilities for making Wordpress plugins with jascha030/wp-subscriber package",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jascha van Aalst",
+      "email": "contact@jaschavanaalst.nl",
+      "homepage": "https://github.com/jascha030",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Jascha030\\WP\\Utilities\\": "src/"
+    }
+  },
+  "require": {
+    "jascha030/wp-subscriptions": "^1.0"
+  }
+}
