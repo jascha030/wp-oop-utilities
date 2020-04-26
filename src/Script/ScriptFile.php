@@ -8,9 +8,9 @@ if (! defined('ABSPATH')) {
 
 if (! class_exists('Jascha030\WP\Utilities\Script\ScriptFile')) {
     /**
-     * Class Script
+     * Class ScriptFile
      *
-     * @package Jascha030\WP\Plugin\Provider\Script
+     * @package Jascha030\WP\Utilities\Script
      */
     class ScriptFile
     {
