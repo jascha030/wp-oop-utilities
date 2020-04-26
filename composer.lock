@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "092ba1dd5bc32f0a53e203b4d07305e7",
+    "packages": [
+        {
+            "name": "jascha030/wp-subscriptions",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jascha030/wp-subscriptions.git",
+                "reference": "a85992cf615762e23b3dc27c8a82cde705f60b59"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jascha030/wp-subscriptions/zipball/a85992cf615762e23b3dc27c8a82cde705f60b59",
+                "reference": "a85992cf615762e23b3dc27c8a82cde705f60b59",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jascha030\\WP\\Subscriptions\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jascha van Aalst",
+                    "email": "contact@jaschavanaalst.nl",
+                    "homepage": "https://github.com/jascha030",
+                    "role": "Developer"
+                }
+            ],
+            "description": "OOP Interface for using the WP Plugin API (Hooks)",
+            "time": "2020-04-26T22:35:14+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
